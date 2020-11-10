@@ -52,6 +52,12 @@ double avg(vector<double> vecToGetAvgFrom);
 */
 double lowest(vector<double> vecToGetLowestFrom);
 
-
+/**
+* @brief  removes spaces from a string and capitalizes every word's first letter
+* @date 11/09/2020
+* @param string to convert to camelCase
+* @return  the camelCased string
+*/
+string camelCase(string originalString);
 
 #endif
